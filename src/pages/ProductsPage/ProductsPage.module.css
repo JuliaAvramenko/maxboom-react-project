@@ -1,0 +1,19 @@
+.content-grid {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+.content-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content-products {
+  max-width: 936px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}/*# sourceMappingURL=ProductsPage.module.css.map */

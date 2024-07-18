@@ -1,0 +1,26 @@
+.formReturn__checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.formReturn__checkbox:first-child {
+  margin-top: 10px;
+}
+.formReturn__radio {
+  height: 20px;
+  width: 20px;
+  background-color: #7266f3;
+  margin: 10px 15px 10px 0;
+  border-color: #343434;
+  cursor: pointer;
+  accent-color: #7266f3;
+}
+
+.primary {
+  accent-color: #7266f3;
+}
+
+.medium {
+  height: 20px;
+  width: 20px;
+}/*# sourceMappingURL=Checkbox.module.css.map */

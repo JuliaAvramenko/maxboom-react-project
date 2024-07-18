@@ -1,0 +1,26 @@
+.category-list__item {
+  display: flex;
+  align-items: center;
+  max-width: 270px;
+  padding: 5px 40px 5px 14px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: #343434;
+  cursor: pointer;
+}
+
+.category-list__item:hover {
+  color: #7266f3;
+}
+
+.category-list__link {
+  text-decoration: none;
+  color: inherit;
+  gap: 5px;
+}
+
+.category-list__link_active {
+  text-decoration: none;
+  gap: 5px;
+  color: #7266f3;
+}/*# sourceMappingURL=CategoryItem.module.css.map */

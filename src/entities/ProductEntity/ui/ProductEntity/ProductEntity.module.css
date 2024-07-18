@@ -1,0 +1,56 @@
+.description {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  height: 110px;
+  width: 60%;
+}
+
+.frame {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 20px 0 0;
+  background: #fff;
+  border-radius: 5px;
+}
+@media (max-width: 1200px) {
+  .frame {
+    border: 1px solid #f1f1f5;
+  }
+}
+
+.image {
+  display: flex;
+  max-height: 100%;
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.description_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 80px;
+}
+
+.name {
+  display: flex;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 700;
+  color: #343434;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media (max-width: 1200px) {
+  .name {
+    width: 100%;
+  }
+}/*# sourceMappingURL=ProductEntity.module.css.map */

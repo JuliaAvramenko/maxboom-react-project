@@ -1,0 +1,68 @@
+.modal-card {
+  margin: 0 50px;
+  padding: 0 10px;
+  display: flex;
+  align-items: normal;
+  gap: 18px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.modal-card__image {
+  margin: 0;
+  display: block;
+  width: 222px;
+  height: 222px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.description {
+  padding: 20px;
+  flex-grow: 1;
+  border-left: 1px solid #e6ebfb;
+}
+
+.main {
+  padding: 20px 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid #e6ebfb;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.quantity {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.customButton {
+  max-width: 200px;
+  min-height: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.customButton svg {
+  width: 25px;
+  height: 20px;
+}
+
+.icon {
+  fill: #fff;
+}/*# sourceMappingURL=CardPreview.module.css.map */

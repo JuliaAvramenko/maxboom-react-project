@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.category-list {
+  padding: 30px;
+  max-width: 330px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 10px;
+  width: inherit;
+}
+
+.category-list__title {
+  margin-bottom: 20px;
+}
+
+/* @TODO: Настроить фиксированную высоту
+https://github.com/Studio-Yandex-Practicum/maxboom_frontend/issues/61 */
+.category-list__items {
+  max-height: calc(100% - 50px);
+  overflow-y: auto;
+  gap: 10px;
+  display: grid;
+}/*# sourceMappingURL=CategoryList.module.css.map */

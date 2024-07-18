@@ -1,0 +1,12 @@
+.span {
+  color: #f45656;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.span.error {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 100;
+  color: #f45656;
+}/*# sourceMappingURL=Span.module.css.map */

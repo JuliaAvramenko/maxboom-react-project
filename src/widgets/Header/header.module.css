@@ -1,0 +1,162 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #7266f3;
+  padding: 5px 24px 10px;
+}
+.header_mobile {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.header__container {
+  display: grid;
+  grid-template-columns: clamp(0px, 13%, 300px) 1fr auto;
+  grid-template-areas: ".. nav .." "logo search account" "catalog tags tags";
+  gap: 5px;
+  width: 100%;
+  max-width: 1422px;
+}
+.header__containerMobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 75px;
+}
+.header__nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+}
+.header__item {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
+.header__icon {
+  display: flex;
+  justify-content: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 8px;
+}
+.header__icon_phone {
+  width: 12px;
+  height: 12px;
+  transform: rotate(90deg);
+}
+.header__icon_help {
+  width: 12px;
+  height: 15px;
+}
+.header__phoneWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header__text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #aaa3f8;
+}
+.header__logo {
+  grid-area: logo;
+  width: 100%;
+}
+.header__logoMobile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.header__catalog {
+  grid-area: catalog;
+  max-width: 150px;
+}
+.header__catalogLinkMain:hover {
+  background: #fff;
+  color: #000;
+}
+.header__catalogWrapper {
+  display: flex;
+  align-items: center;
+}
+.header__svg {
+  margin-right: 8px;
+  transition: fill 0.25s;
+  fill: #fff;
+}
+.header__catalogText {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: color 0.25s;
+}
+.header__catalogLinkMain:hover .header__svg {
+  fill: #000;
+}
+.header__catalogLinkMain:hover .header__catalogText {
+  color: #000;
+}
+.header__tags {
+  grid-area: tags;
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.header__catalogLinkSkeleton {
+  display: flex;
+  gap: 10px;
+}
+.header__contextMenuLink {
+  color: #343434;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.header__contextMenuLink:hover {
+  color: #7f73fa;
+}
+.header__contextMenuList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 320px;
+  padding: 20px 40px 20px 20px;
+}
+.header__contextMenuList_catalog {
+  overflow-y: scroll;
+}
+.header__contextMenuItem {
+  font-size: 13px;
+  font-weight: 400;
+}
+.header__menuButton {
+  margin: 0;
+  padding: 0;
+}
+.header__menuIcon {
+  fill: #fff;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.header__menuIcon:hover {
+  fill: #aaa3f8;
+}
+.header__menuIcon:active {
+  transform: scale(0.9);
+}/*# sourceMappingURL=header.module.css.map */

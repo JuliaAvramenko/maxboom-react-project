@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.button {
+  box-sizing: border-box;
+  padding: 8px;
+  min-width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #7266f3;
+  color: #fff;
+}
+
+.button_active {
+  background-color: #7266f3;
+  color: #fff;
+}
+
+.button_active:hover {
+  background-color: #f7f7fb;
+  border: 1px solid #7266f3;
+  color: #7266f3;
+}/*# sourceMappingURL=Pagination.module.css.map */

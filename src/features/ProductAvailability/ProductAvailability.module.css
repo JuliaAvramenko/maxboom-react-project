@@ -1,0 +1,31 @@
+.product-card__info {
+  display: flex;
+  gap: 10px;
+}
+
+.product-card__availability {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.product-card_status {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.product-card_status_in-stock {
+  background-color: #13d154;
+}
+
+.product-card_status_zero {
+  background-color: #f45656;
+}
+
+.product-card__code {
+  font-size: 11px;
+  color: #bdc2d3;
+}/*# sourceMappingURL=ProductAvailability.module.css.map */

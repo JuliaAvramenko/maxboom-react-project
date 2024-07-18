@@ -1,0 +1,40 @@
+.page-controls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 12px;
+}
+
+.cards-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.cards-control {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 6px;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cards-control:hover,
+.active,
+.active path {
+  border-bottom: 2px solid #7266f3;
+  stroke: #7266f3;
+}
+
+.cards-control:hover path {
+  stroke: #7266f3;
+}/*# sourceMappingURL=PageControls.module.css.map */

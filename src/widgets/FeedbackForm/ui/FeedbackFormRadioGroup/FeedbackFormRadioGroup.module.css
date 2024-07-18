@@ -1,0 +1,37 @@
+.radiobtngruop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.radiobtngruop__formlabel {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.radiobtngruop__group {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.radiobtngruop__label {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: scale 0.5s;
+}
+.radiobtngruop__label:hover {
+  scale: 1.2;
+}
+.radiobtngruop__label svg path {
+  fill: #bdc2d3;
+  transition: fill 0.3s;
+}
+.radiobtngruop__field {
+  display: none;
+}
+.radiobtngruop__field:checked ~ .radiobtngruop__label svg path {
+  fill: #efbf13;
+}/*# sourceMappingURL=FeedbackFormRadioGroup.module.css.map */

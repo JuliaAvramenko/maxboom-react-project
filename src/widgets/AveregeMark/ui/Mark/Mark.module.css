@@ -1,0 +1,19 @@
+.mark {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.mark__scorename {
+  font-size: 16px;
+}
+.mark__score {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 16px;
+}/*# sourceMappingURL=Mark.module.css.map */

@@ -1,0 +1,89 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+}
+.form .errorForm {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  font-size: 14px;
+  max-width: 402px;
+  text-align: center;
+}
+
+.heading {
+  padding-bottom: 20px;
+}
+
+.span {
+  color: #f45656;
+  font-weight: 100;
+}
+
+.label {
+  position: relative;
+  font-size: 14px;
+}
+
+.input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: #f7f7fb;
+  border: 1px solid #e6ebfb;
+}
+
+.input:focus {
+  border: 1px solid #7266f3;
+}
+
+.error {
+  position: absolute;
+  top: 67px;
+  left: 15px;
+  font-size: 12px;
+  color: #f45656;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  width: 100%;
+}
+
+.closeButton {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.closeIcon {
+  fill: #343434;
+  transition: 0.25s;
+}
+.closeIcon:hover {
+  fill: #aaa3f8;
+}
+
+.link {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=LoginForm.module.css.map */

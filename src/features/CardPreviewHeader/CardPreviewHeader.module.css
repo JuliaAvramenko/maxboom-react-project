@@ -1,0 +1,42 @@
+.header {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  border-bottom: 1px solid #e6ebfb;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  gap: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon.active path {
+  stroke: #13d154;
+}
+
+.producer {
+  display: flex;
+  flex-direction: column;
+}
+
+.producer-title {
+  font-weight: 900;
+}
+
+.producer-subtitle {
+  color: #bdc2d3;
+}/*# sourceMappingURL=CardPreviewHeader.module.css.map */

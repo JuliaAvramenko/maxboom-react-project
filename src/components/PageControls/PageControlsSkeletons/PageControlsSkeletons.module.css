@@ -1,0 +1,22 @@
+.sk-page-controls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sk-page-controls__dropdowns {
+  display: flex;
+  gap: 12px;
+}
+.sk-page-controls__dropdown {
+  width: 150px;
+  height: 36px;
+}
+.sk-page-controls__cards-controls {
+  display: flex;
+  gap: 10px;
+}
+.sk-page-controls__cards-control {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+}/*# sourceMappingURL=PageControlsSkeletons.module.css.map */

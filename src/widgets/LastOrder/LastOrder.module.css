@@ -1,0 +1,39 @@
+.lastOrder {
+  min-width: 70%;
+  padding: 30px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.lastOrder__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.lastOrder__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+  color: #000;
+}
+.lastOrder__link {
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+.lastOrder__link:hover {
+  opacity: 0.8;
+}
+.lastOrder__text {
+  font-size: 16px;
+}
+.lastOrder__footer {
+  width: 100%;
+  border-top: 1px solid #e6ebfb;
+  padding-top: 15px;
+  margin-top: 10px;
+}/*# sourceMappingURL=LastOrder.module.css.map */

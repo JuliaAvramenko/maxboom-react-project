@@ -1,0 +1,11 @@
+.breadcrumbs {
+  display: flex;
+}
+
+.link {
+  color: #bdc2d3;
+  transition: color 0.3s;
+}
+.link:hover {
+  color: #7f73fa;
+}/*# sourceMappingURL=Breadcrumbs.module.css.map */

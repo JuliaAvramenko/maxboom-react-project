@@ -1,0 +1,19 @@
+.helpCategories {
+  margin-top: 25px;
+  max-width: 280px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.helpCategories__item {
+  color: #343434;
+  display: flex;
+  width: 280px;
+  height: 45px;
+  padding: 13.5px 15px;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-color: #f7f7fb;
+  justify-content: space-between;
+}/*# sourceMappingURL=HelpCategories.module.css.map */

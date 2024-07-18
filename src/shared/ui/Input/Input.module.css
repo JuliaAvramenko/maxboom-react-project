@@ -1,0 +1,65 @@
+.input {
+  width: 100%;
+}
+.input.accent {
+  color: #fff;
+  caret-color: #fff;
+}
+.input.accent::-moz-placeholder {
+  color: #aaa3f8;
+}
+.input.accent::placeholder {
+  color: #aaa3f8;
+}
+.input.normal {
+  color: #343434;
+  caret-color: #343434;
+}
+.input.normal::-moz-placeholder {
+  color: #343434;
+}
+.input.normal::placeholder {
+  color: #343434;
+}
+.input.light {
+  color: #000;
+  caret-color: #000;
+}
+.input.light::-moz-placeholder {
+  color: #000;
+}
+.input.light::placeholder {
+  color: #000;
+}
+.input.dark {
+  color: #fff;
+  caret-color: #fff;
+}
+.input.dark::-moz-placeholder {
+  color: #63606c;
+}
+.input.dark::placeholder {
+  color: #63606c;
+}
+.input.small {
+  font-size: 15px;
+  line-height: 12.5px;
+  margin-left: 20px;
+}
+.input.small::-moz-placeholder {
+  font-size: 15px;
+}
+.input.small::placeholder {
+  font-size: 15px;
+}
+.input.medium {
+  font-size: 18px;
+  line-height: 15px;
+  margin-left: 31px;
+}
+.input.medium::-moz-placeholder {
+  font-size: 16px;
+}
+.input.medium::placeholder {
+  font-size: 16px;
+}/*# sourceMappingURL=Input.module.css.map */

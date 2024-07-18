@@ -1,0 +1,46 @@
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.carouselContainer_type_compact {
+  max-width: 222px;
+}
+
+.carousel {
+  display: flex;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 1 0 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide.active {
+  transform: scale(1.2);
+}
+
+.indicator {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+  gap: 10px;
+}
+
+.dot {
+  width: 100%;
+  max-width: 100px;
+  height: 2px;
+  background-color: #bdc2d3;
+}
+
+.dot.active {
+  background-color: #7266f3;
+}/*# sourceMappingURL=Carousel.module.css.map */

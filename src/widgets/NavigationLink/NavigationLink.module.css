@@ -1,0 +1,14 @@
+.li {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=NavigationLink.module.css.map */

@@ -1,0 +1,26 @@
+.contextMenu {
+  position: absolute;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(170, 189, 206, 0.25);
+  border-radius: 5px;
+  z-index: 2;
+  transition: visibility 0.5s, opacity 0.5s;
+  pointer-events: none;
+}
+.contextMenu:hover {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.contextBody {
+  position: relative;
+}
+.contextBody:hover .contextMenu {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}/*# sourceMappingURL=contextMenuElement.module.css.map */

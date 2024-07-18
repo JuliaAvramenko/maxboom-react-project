@@ -1,0 +1,71 @@
+.feedbackform {
+  width: 100%;
+  min-height: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.feedbackform__header {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+}
+.feedbackform__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.feedbackform__label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feedbackform__fieldlabel {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.feedbackform__field {
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  background-color: #f7f7fb;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: box-shadow 0.5s;
+}
+.feedbackform__field:focus {
+  box-shadow: 0 0 0 2px #7266f3;
+}
+.feedbackform__field_area {
+  height: 180px;
+  resize: none;
+  overflow: auto;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.feedbackform__submitbtn {
+  width: 100%;
+  transition: opacity 0.5s;
+}
+.feedbackform__submitbtn:hover {
+  opacity: 0.8;
+}
+.feedbackform__msg {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}/*# sourceMappingURL=FeedbackForm.module.css.map */

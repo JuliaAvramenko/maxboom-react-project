@@ -1,0 +1,44 @@
+.feedbackformpopup {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+.feedbackformpopup__wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #fff;
+}
+.feedbackformpopup__wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.feedbackformpopup__closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #7266f3;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+.feedbackformpopup__closebtn:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=FeedbackFormPopup.module.css.map */

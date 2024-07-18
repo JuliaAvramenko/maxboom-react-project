@@ -1,0 +1,10 @@
+.categoryCardList {
+  margin-right: 24px;
+  display: grid;
+  justify-content: center;
+  row-gap: 19px;
+  -moz-column-gap: 19px;
+       column-gap: 19px;
+  grid-template-columns: repeat(auto-fit, 255px);
+  margin-bottom: 115px;
+}/*# sourceMappingURL=CategoryCardList.module.css.map */

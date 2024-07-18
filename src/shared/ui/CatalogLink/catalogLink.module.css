@@ -1,0 +1,22 @@
+.catalog-link {
+  height: 35px;
+  background-color: #7266f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #7f73fa;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: background 0.25s, border 0.25s;
+}
+
+.catalog-link:hover {
+  border: 1px solid #fff;
+}/*# sourceMappingURL=catalogLink.module.css.map */

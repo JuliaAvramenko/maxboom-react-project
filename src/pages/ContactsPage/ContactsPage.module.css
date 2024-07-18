@@ -1,0 +1,70 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 56px;
+}
+.contacts__titleBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 1330px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.contacts__map {
+  width: 100%;
+  width: 500px;
+  height: 500px;
+  background-color: #333;
+}
+.contacts__frame {
+  width: 100%;
+  min-height: 425px;
+}
+.contacts__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  max-width: 1330px;
+  width: 100%;
+  gap: 50px;
+}
+.contacts__block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contacts__blockAdress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contacts__adress {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  gap: 20px;
+  min-height: 325px;
+}
+.contacts__adressPhone {
+  min-height: 325px;
+  width: 150px;
+}
+.contacts__text {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.contacts__city {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #4791FF;
+}
+.contacts__city:hover {
+  opacity: 0.7;
+}
+.contacts__mall {
+  text-decoration: none;
+  color: #171717;
+}/*# sourceMappingURL=ContactsPage.module.css.map */

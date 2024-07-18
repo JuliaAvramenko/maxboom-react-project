@@ -1,0 +1,67 @@
+.textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  resize: none;
+}
+.textarea.accent {
+  color: #fff;
+  caret-color: #fff;
+}
+.textarea.accent::-moz-placeholder {
+  color: #aaa3f8;
+}
+.textarea.accent::placeholder {
+  color: #aaa3f8;
+}
+.textarea.light {
+  color: #000;
+  caret-color: #000;
+}
+.textarea.light::-moz-placeholder {
+  color: #000;
+}
+.textarea.light::placeholder {
+  color: #000;
+}
+.textarea.dark {
+  color: #fff;
+  caret-color: #fff;
+}
+.textarea.dark::-moz-placeholder {
+  color: #63606c;
+}
+.textarea.dark::placeholder {
+  color: #63606c;
+}
+.textarea.small {
+  font-size: 15px;
+  line-height: 12.5px;
+  margin-left: 20px;
+}
+.textarea.small::-moz-placeholder {
+  font-size: 15px;
+}
+.textarea.small::placeholder {
+  font-size: 15px;
+}
+.textarea.medium {
+  font-size: 18px;
+  line-height: 15px;
+  margin-left: 31px;
+}
+.textarea.medium::-moz-placeholder {
+  font-size: 16px;
+}
+.textarea.medium::placeholder {
+  font-size: 16px;
+}/*# sourceMappingURL=Textarea.module.css.map */

@@ -1,0 +1,15 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.blog__wrapper {
+  max-width: 1080px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-rows: auto;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  justify-content: center;
+}/*# sourceMappingURL=blog.module.css.map */

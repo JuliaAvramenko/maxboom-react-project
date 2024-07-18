@@ -1,0 +1,35 @@
+.favoritePage {
+  width: 100%;
+}
+.favoritePage__pageDescriptor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.favoritePage__container {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+@media (max-width: 769px) {
+  .favoritePage__container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.favoritePage__list {
+  max-width: 936px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.favoritePage__span {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #000;
+  margin-left: 20px;
+}/*# sourceMappingURL=FavoritesPage.module.css.map */

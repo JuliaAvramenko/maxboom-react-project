@@ -1,0 +1,28 @@
+.help {
+  align-self: flex-start;
+}
+.help__path {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.help__cats {
+  display: flex;
+  flex-direction: column;
+  max-width: 340px;
+  padding: 40px 30px 65px;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: #fff;
+  max-height: 300px;
+}
+.help__wrapper {
+  display: flex;
+  gap: 30px;
+}
+.help__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  gap: 30px;
+}/*# sourceMappingURL=HelpPage.module.css.map */

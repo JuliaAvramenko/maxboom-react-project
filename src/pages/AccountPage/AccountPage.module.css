@@ -1,0 +1,60 @@
+.accountPage {
+  width: 100%;
+}
+.accountPage__pageDescriptor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.accountPage__container {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+@media (max-width: 1200px) {
+  .accountPage__container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.accountPage__contentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.accountPage__dataGrid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1060px;
+  gap: 20px;
+}
+@media (max-width: 1200px) {
+  .accountPage__dataGrid {
+    grid-template-columns: 100%;
+    grid-template-rows: 300px auto 300px;
+  }
+}
+.accountPage__leftSide {
+  grid-column-start: 1;
+  grid-row: span 2;
+}
+@media (max-width: 1200px) {
+  .accountPage__leftSide {
+    grid-row: 2/3;
+  }
+}
+@media (max-width: 1200px) {
+  .accountPage__accMenu {
+    grid-row: 1/2;
+  }
+}
+@media (max-width: 1200px) {
+  .accountPage__subccribe {
+    grid-row: 3/4;
+  }
+}/*# sourceMappingURL=AccountPage.module.css.map */

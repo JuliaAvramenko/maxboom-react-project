@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  background-color: #fff;
+  width: 460px;
+  border-radius: 5px;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.button_change {
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  color: #4791ff;
+}
+.button_change:hover {
+  opacity: 0.8;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f1f1f5;
+  border-radius: 5px;
+  padding: 3px 3px 3px 20px;
+}
+.form:focus-within {
+  border: 1px solid #000;
+}
+
+.form > .input {
+  margin-left: 0;
+}
+.form > .input::-moz-placeholder {
+  color: #bdc2d3;
+}
+.form > .input::placeholder {
+  color: #bdc2d3;
+}
+
+.button {
+  height: 36px;
+  padding: 5px 20px;
+  background: #f1f1f5;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: #7266f3;
+  color: #fff;
+}/*# sourceMappingURL=CartCouponApply.module.css.map */

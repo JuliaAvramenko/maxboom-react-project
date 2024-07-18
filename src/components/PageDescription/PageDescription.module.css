@@ -1,0 +1,27 @@
+.content__description {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 10px;
+}
+
+.content__title {
+  display: inline;
+}
+
+.content__items-count {
+  margin-left: 8px;
+  font-size: 24px;
+  color: #bdc2d3;
+}
+
+.content__breadcrumbs {
+  font-size: 18px;
+  color: #bdc2d3;
+}
+
+.content__link {
+  display: inline;
+  text-decoration: none;
+  color: #bdc2d3;
+}/*# sourceMappingURL=PageDescription.module.css.map */

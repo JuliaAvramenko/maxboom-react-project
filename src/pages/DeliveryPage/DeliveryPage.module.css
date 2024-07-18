@@ -1,0 +1,12 @@
+.delivery {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  padding: 0 0 56px;
+}
+.delivery__titleBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}/*# sourceMappingURL=DeliveryPage.module.css.map */

@@ -1,0 +1,11 @@
+.customButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.customButton_type_grid,
+.customButton_type_list {
+  gap: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}/*# sourceMappingURL=WidgetButtonsFunctions.module.css.map */

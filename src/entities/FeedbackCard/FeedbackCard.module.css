@@ -1,0 +1,102 @@
+.feedbackcard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.feedbackcard__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .feedbackcard__header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+.feedbackcard__usercontainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.feedbackcard__initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #02aab0 0%, #00cdac 100%);
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feedbackcard__scorewraper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.feedbackcard__username {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.feedbackcard__score {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #4791ff;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+.feedbackcard__score:hover {
+  opacity: 0.7;
+}
+.feedbackcard__score:hover + .feedbackcard__scorepopap {
+  opacity: 1;
+}
+.feedbackcard__date {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+@media (max-width: 1200px) {
+  .feedbackcard__date {
+    margin-left: 50px;
+  }
+}
+.feedbackcard__date_isanswer {
+  margin-left: 0;
+}
+.feedbackcard__text {
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.feedbackcard__replay {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 20px;
+  background-color: #f7f7fb;
+  border-radius: 5px;
+}/*# sourceMappingURL=FeedbackCard.module.css.map */

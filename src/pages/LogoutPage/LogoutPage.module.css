@@ -1,0 +1,31 @@
+.logoutPage__pageDescriptor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.logoutPage__container {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+@media (max-width: 769px) {
+  .logoutPage__container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.logoutPage__infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.logoutPage__button {
+  width: 150px;
+  transition: opacity 0.3s;
+}
+.logoutPage__button:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=LogoutPage.module.css.map */

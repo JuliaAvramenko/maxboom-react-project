@@ -1,0 +1,15 @@
+.sk-content {
+  width: 330px;
+  height: 30px;
+}
+
+.sk-content__description {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 10px;
+}
+
+.sk-content__breadcrumbs {
+  height: 16px;
+}/*# sourceMappingURL=PageDescriptionSkeleton.module.css.map */

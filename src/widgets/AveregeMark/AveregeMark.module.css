@@ -1,0 +1,53 @@
+.aveargemark {
+  width: 100%;
+  min-height: 430px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+@media (max-width: 1200px) {
+  .aveargemark {
+    min-height: 355px;
+  }
+}
+.aveargemark__markcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.aveargemark__commonscore {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 700;
+}
+.aveargemark__commonscore svg {
+  width: 25px;
+  height: 25px;
+}
+.aveargemark__header {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+}
+.aveargemark__scores {
+  width: 100%;
+}
+.aveargemark__commentcontainer {
+  width: 100%;
+  padding-top: 30px;
+  border-top: 1px solid #e6ebfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=AveregeMark.module.css.map */

@@ -1,0 +1,13 @@
+.storybook {
+  width: 1080px;
+}
+
+.storiesBlock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.storiesScroll {
+  padding-top: 20px;
+}/*# sourceMappingURL=StoriesBlock.module.css.map */

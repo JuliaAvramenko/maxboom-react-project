@@ -1,0 +1,26 @@
+.category-card {
+  width: 255px;
+  height: 183px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  gap: auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-card__img {
+  width: 108px;
+  height: 108px;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-card__text {
+  margin-bottom: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}/*# sourceMappingURL=CategoryCard.module.css.map */
